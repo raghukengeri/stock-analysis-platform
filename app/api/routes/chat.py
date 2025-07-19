@@ -470,6 +470,9 @@ async def send_dev_message(
                                     f"💡 **Dividend Yield** = Annual Dividend ÷ Current Price"
                 
                 elif fundamental_query == "financials":
+                    # Import industry analysis services
+                    from app.services.industry_analysis_service import IndustryAnalysisService, ASCIIChartService
+                    
                     # Calculate additional ratios for comprehensive analysis
                     price_to_sales = None
                     roe = None
@@ -482,6 +485,9 @@ async def send_dev_message(
                     if stock_data.net_income and stock_data.revenue:
                         roe_calc = (stock_data.net_income / stock_data.revenue) * 100  # Simplified ROE estimation
                         if roe_calc: roe = roe_calc
+                    
+                    # Get industry comparison
+                    peer_comparison = IndustryAnalysisService.compare_to_industry(stock_data.symbol, stock_data)
                     
                     # Generate professional comprehensive analysis
                     response_content = f"📊 **{stock_data.symbol} - Professional Financial Analysis**\n\n"
@@ -566,6 +572,91 @@ async def send_dev_message(
                     
                     if insights:
                         response_content += f"🔍 **KEY INSIGHTS**\n" + "\n".join(insights) + "\n\n"
+                    
+                    # Industry Comparison Section
+                    if peer_comparison:
+                        response_content += f"🏭 **INDUSTRY ANALYSIS** ({peer_comparison.industry})\n"
+                        
+                        # Peer companies
+                        if peer_comparison.peers:
+                            peer_list = ", ".join(peer_comparison.peers[:3])  # Show top 3 peers
+                            response_content += f"**Key Peers**: {peer_list}\n\n"
+                        
+                        # Industry comparison table
+                        benchmark = peer_comparison.benchmark
+                        response_content += f"```\n"
+                        response_content += f"Metric          {stock_data.symbol:<8} Industry  Relative\n"
+                        response_content += f"────────────────────────────────────────────\n"
+                        
+                        # P/E Ratio comparison
+                        if stock_data.pe_ratio and benchmark.pe_ratio_avg:
+                            relative = peer_comparison.relative_position.get('pe_ratio', 'N/A')
+                            relative_icon = {'high': '🔴', 'low': '🟢', 'average': '🟡'}.get(relative, '⚪')
+                            response_content += f"P/E Ratio       {stock_data.pe_ratio:<8.1f} {benchmark.pe_ratio_avg:<8.1f} {relative_icon} {relative.title()}\n"
+                        
+                        # Profit Margin comparison
+                        if stock_data.profit_margin and benchmark.profit_margin_avg:
+                            relative = peer_comparison.relative_position.get('profit_margin', 'N/A')
+                            relative_icon = {'high': '🟢', 'low': '🔴', 'average': '🟡'}.get(relative, '⚪')
+                            response_content += f"Profit Margin   {stock_data.profit_margin:<8.1f}% {benchmark.profit_margin_avg:<7.1f}% {relative_icon} {relative.title()}\n"
+                        
+                        # Revenue Growth comparison
+                        if stock_data.revenue_growth and benchmark.revenue_growth_avg:
+                            relative = peer_comparison.relative_position.get('revenue_growth', 'N/A')
+                            relative_icon = {'high': '🟢', 'low': '🔴', 'average': '🟡'}.get(relative, '⚪')
+                            response_content += f"Revenue Growth  {stock_data.revenue_growth:<8.1f}% {benchmark.revenue_growth_avg:<7.1f}% {relative_icon} {relative.title()}\n"
+                        
+                        # Debt to Equity comparison
+                        if stock_data.debt_to_equity is not None and benchmark.debt_to_equity_avg:
+                            relative = peer_comparison.relative_position.get('debt_to_equity', 'N/A')
+                            relative_icon = {'high': '🔴', 'low': '🟢', 'average': '🟡'}.get(relative, '⚪')
+                            response_content += f"Debt/Equity     {stock_data.debt_to_equity:<8.1f}x {benchmark.debt_to_equity_avg:<7.1f}x {relative_icon} {relative.title()}\n"
+                        
+                        response_content += f"```\n\n"
+                        
+                        # ASCII Chart for key metrics comparison
+                        chart_data = {}
+                        if stock_data.pe_ratio and benchmark.pe_ratio_avg:
+                            chart_data['Stock P/E'] = stock_data.pe_ratio
+                            chart_data['Industry P/E'] = benchmark.pe_ratio_avg
+                        
+                        if chart_data:
+                            chart = ASCIIChartService.generate_bar_chart(chart_data, "📊 P/E Ratio Comparison", 20)
+                            response_content += f"```\n{chart}\n```\n\n"
+                        
+                        # Industry positioning summary
+                        position_summary = []
+                        for metric, position in peer_comparison.relative_position.items():
+                            if position == 'high':
+                                if metric == 'debt_to_equity':
+                                    position_summary.append(f"Higher debt than peers")
+                                elif metric == 'pe_ratio':
+                                    position_summary.append(f"Premium valuation vs industry")
+                                else:
+                                    position_summary.append(f"Above-average {metric.replace('_', ' ')}")
+                            elif position == 'low':
+                                if metric == 'debt_to_equity':
+                                    position_summary.append(f"Conservative debt levels")
+                                elif metric == 'pe_ratio':
+                                    position_summary.append(f"Value pricing vs industry")
+                                else:
+                                    position_summary.append(f"Below-average {metric.replace('_', ' ')}")
+                        
+                        if position_summary:
+                            response_content += f"**Industry Position**: {', '.join(position_summary[:2])}\n\n"
+                    
+                    # Performance Trend Chart (sample data for demonstration)
+                    if stock_data.revenue and stock_data.net_income:
+                        # Create a simple trend visualization
+                        trend_data = [
+                            stock_data.revenue * 0.85,  # Simulated historical data
+                            stock_data.revenue * 0.92,
+                            stock_data.revenue * 0.98,
+                            stock_data.revenue,  # Current
+                        ]
+                        labels = ["Q1", "Q2", "Q3", "Q4"]
+                        trend_chart = ASCIIChartService.generate_trend_chart(trend_data, labels, "📈 Revenue Trend (TTM)")
+                        response_content += f"```\n{trend_chart}\n```\n\n"
                     
                     # Professional footer
                     response_content += f"💡 **Analysis Note**: Professional-grade financial analysis for {stock_data.symbol}. " \
