@@ -131,12 +131,14 @@ async def send_dev_message(
         'JIO': 'Reliance Jio', # Note: Jio is part of Reliance
         'RELIANCE JIO': 'RELIANCE',
         
-        # Consumer Goods
+        # Consumer Goods & Retail
         'ITC': 'ITC Limited',
         'HINDUNILVR': 'Hindustan Unilever',
         'HINDUSTAN UNILEVER': 'HINDUNILVR',
         'HUL': 'HINDUNILVR',
         'NESTLEIND': 'Nestle India',
+        'TRENT': 'Trent Limited',
+        'TRENT LIMITED': 'TRENT',
         'NESTLE INDIA': 'NESTLEIND',
         'NESTLE': 'NESTLEIND',
         'BRITANNIA': 'Britannia Industries',
