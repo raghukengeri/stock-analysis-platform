@@ -929,6 +929,22 @@ gmpy = ["gmpy"]
 gmpy2 = ["gmpy2"]
 
 [[package]]
+name = "email-validator"
+version = "2.2.0"
+description = "A robust email address syntax and deliverability validation library."
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "email_validator-2.2.0-py3-none-any.whl", hash = "sha256:561977c2d73ce3611850a06fa56b414621e0c8faa9d66f2611407d87465da631"},
+    {file = "email_validator-2.2.0.tar.gz", hash = "sha256:cb690f344c617a714f22e66ae771445a1ceb46821152df8e165c5f9a364582b7"},
+]
+
+[package.dependencies]
+dnspython = ">=2.0.0"
+idna = ">=2.0.0"
+
+[[package]]
 name = "fastapi"
 version = "0.104.1"
 description = "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
@@ -3341,4 +3357,4 @@ repair = ["scipy (>=1.6.3)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "c197109550cbdefcf138775dadb115bdefb44f10d01442583e870a1f38d15fbd"
+content-hash = "40c5123ed8d16aa8f4db4ae195c94f7bdd3d0f426523e67fb112cfc013308b62"

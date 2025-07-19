@@ -1,0 +1,2113 @@
+{
+  "total_stocks": 50,
+  "successful_detections": 50,
+  "successful_data_fetch": 50,
+  "failed_detections": 0,
+  "failed_data_fetch": 0,
+  "errors": [],
+  "successful_stocks": [
+    {
+      "symbol": "AWL",
+      "company_name": "AWL Agri Business Ltd.",
+      "industry": "Fast Moving Consumer Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        3.1639647483825684
+      ],
+      "test_results": {
+        "price for AWL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 3.1639647483825684,
+          "content_preview": "\ud83d\udcb0 **awl** (awl agri business limited)\n\n**current price**: \u20b9274.55\n**change**: \ud83d\udcc9 down \u20b93.75 (-1.35%)\n**market cap**: $355.62b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ACE",
+      "company_name": "Action Construction Equipment Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        3.3035831451416016
+      ],
+      "test_results": {
+        "price for ACE": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 3.3035831451416016,
+          "content_preview": "\ud83d\udcb0 **ace** (action construction equipment limited)\n\n**current price**: \u20b91140.60\n**change**: \ud83d\udcc9 down \u20b98.60 (-0.75%)\n**market cap**: $140.93b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ABFRL",
+      "company_name": "Aditya Birla Fashion and Retail Ltd.",
+      "industry": "Consumer Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.8011529445648193
+      ],
+      "test_results": {
+        "price for ABFRL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.8011529445648193,
+          "content_preview": "\ud83d\udcb0 **abfrl** (aditya birla fashion and retail limited)\n\n**current price**: \u20b975.51\n**change**: \ud83d\udcc9 down \u20b90.21 (-0.28%)\n**market cap**: $94.70b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AKUMS",
+      "company_name": "Akums Drugs and Pharmaceuticals Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.7070620059967041
+      ],
+      "test_results": {
+        "price for AKUMS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.7070620059967041,
+          "content_preview": "\ud83d\udcb0 **akums** (akums)\n\n**current price**: \u20b9552.85\n**change**: \ud83d\udcc9 down \u20b97.35 (-1.31%)\n**market cap**: $86.19b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "360ONE",
+      "company_name": "360 ONE WAM Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.029986858367919922,
+        3.119529962539673,
+        0.9649109840393066
+      ],
+      "test_results": {
+        "price for 360ONE": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": false,
+          "response_time": 0.029986858367919922,
+          "content_preview": "\ud83c\uddee\ud83c\uddf3 i'm your indian stock market ai! ask me about stocks like:\n\n\u2022 'reliance price' or 'what's tcs worth?'\n\u2022 'hdfc bank stock' or 'infosys price'\n\u2022 'tell me about tata motors'\n\ni understand both company..."
+        },
+        "get me price of 360ONE": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": true,
+          "response_time": 3.119529962539673,
+          "content_preview": "\u274c sorry, i couldn't find stock data for **me**.\n\n\ud83e\udd14 did you mean: **maruti**, **gmdcltd**, **cipla**?\n\n\ud83d\udca1 try asking: 'what's the price of maruti?'"
+        },
+        "360 ONE WAM Ltd. price": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.9649109840393066,
+          "content_preview": "\ud83d\udcb0 **lt** (larsen & toubro limited)\n\n**current price**: \u20b93464.80\n**change**: \ud83d\udcc9 down \u20b99.20 (-0.26%)\n**market cap**: $4.93t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ANANDRATHI",
+      "company_name": "Anand Rathi Wealth Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        1.0016541481018066
+      ],
+      "test_results": {
+        "price for ANANDRATHI": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 1.0016541481018066,
+          "content_preview": "\ud83d\udcb0 **anandrathi** (anand rathi wealth limited)\n\n**current price**: \u20b92621.20\n**change**: \ud83d\udcc8 up \u20b934.70 (+1.34%)\n**market cap**: $217.61b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ADANIENSOL",
+      "company_name": "Adani Energy Solutions Ltd.",
+      "industry": "Power",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.8754539489746094
+      ],
+      "test_results": {
+        "price for ADANIENSOL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.8754539489746094,
+          "content_preview": "\ud83d\udcb0 **adaniports** (adani ports and special economic zone limited)\n\n**current price**: \u20b91443.10\n**change**: \ud83d\udcc9 down \u20b99.40 (-0.65%)\n**market cap**: $3.12t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian mark..."
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ASAHIINDIA",
+      "company_name": "Asahi India Glass Ltd.",
+      "industry": "Automobile and Auto Components",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        1.050126075744629
+      ],
+      "test_results": {
+        "price for ASAHIINDIA": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 1.050126075744629,
+          "content_preview": "\ud83d\udcb0 **asahiindia** (asahi india glass limited)\n\n**current price**: \u20b9842.00\n**change**: \ud83d\udcc9 down \u20b931.05 (-3.56%)\n**market cap**: $204.68b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "APLLTD",
+      "company_name": "Alembic Pharmaceuticals Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.1478118896484375
+      ],
+      "test_results": {
+        "price for APLLTD": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.1478118896484375,
+          "content_preview": "\ud83d\udcb0 **lt** (larsen & toubro limited)\n\n**current price**: \u20b93464.80\n**change**: \ud83d\udcc9 down \u20b99.20 (-0.26%)\n**market cap**: $4.93t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ABREL",
+      "company_name": "Aditya Birla Real Estate Ltd.",
+      "industry": "Forest Materials",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.34672999382019043
+      ],
+      "test_results": {
+        "price for ABREL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.34672999382019043,
+          "content_preview": "\ud83d\udcb0 **abrel** (aditya birla real estate limited)\n\n**current price**: \u20b92122.80\n**change**: \ud83d\udcc9 down \u20b944.80 (-2.07%)\n**market cap**: $246.22b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ANANTRAJ",
+      "company_name": "Anant Raj Ltd.",
+      "industry": "Realty",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.37386107444763184
+      ],
+      "test_results": {
+        "price for ANANTRAJ": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.37386107444763184,
+          "content_preview": "\ud83d\udcb0 **anantraj** (anant raj limited)\n\n**current price**: \u20b9589.20\n**change**: \ud83d\udcc9 down \u20b912.20 (-2.03%)\n**market cap**: $202.25b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "company_name": "Ashok Leyland Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.43063783645629883
+      ],
+      "test_results": {
+        "price for ASHOKLEY": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.43063783645629883,
+          "content_preview": "\ud83d\udcb0 **ashokley** (ashok leyland limited)\n\n**current price**: \u20b9122.25\n**change**: \ud83d\udcc9 down \u20b91.50 (-1.21%)\n**market cap**: $723.78b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ACC",
+      "company_name": "ACC Ltd.",
+      "industry": "Construction Materials",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.4122629165649414
+      ],
+      "test_results": {
+        "price for ACC": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4122629165649414,
+          "content_preview": "\ud83d\udcb0 **acc** (acc limited)\n\n**current price**: \u20b91969.90\n**change**: \ud83d\udcc9 down \u20b98.90 (-0.45%)\n**market cap**: $369.92b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ADANIENT",
+      "company_name": "Adani Enterprises Ltd.",
+      "industry": "Metals & Mining",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.34755587577819824
+      ],
+      "test_results": {
+        "price for ADANIENT": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.34755587577819824,
+          "content_preview": "\ud83d\udcb0 **adaniports** (adani ports and special economic zone limited)\n\n**current price**: \u20b91443.10\n**change**: \ud83d\udcc9 down \u20b99.40 (-0.65%)\n**market cap**: $3.12t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian mark..."
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ABSLAMC",
+      "company_name": "Aditya Birla Sun Life AMC Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.4942750930786133
+      ],
+      "test_results": {
+        "price for ABSLAMC": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4942750930786133,
+          "content_preview": "\ud83d\udcb0 **abslamc** (aditya birla sun life amc limited)\n\n**current price**: \u20b9864.35\n**change**: \ud83d\udcc8 up \u20b90.20 (+0.02%)\n**market cap**: $249.47b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ALIVUS",
+      "company_name": "Alivus Life Sciences Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.38515806198120117
+      ],
+      "test_results": {
+        "price for ALIVUS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.38515806198120117,
+          "content_preview": "\ud83d\udcb0 **alivus** (alivus life sciences limited)\n\n**current price**: \u20b91058.30\n**change**: \ud83d\udcc9 down \u20b910.50 (-0.98%)\n**market cap**: $129.78b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ANGELONE",
+      "company_name": "Angel One Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.34998106956481934
+      ],
+      "test_results": {
+        "price for ANGELONE": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.34998106956481934,
+          "content_preview": "\ud83d\udcb0 **angelone** (angel one limited)\n\n**current price**: \u20b92678.00\n**change**: \ud83d\udcc9 down \u20b962.10 (-2.27%)\n**market cap**: $247.16b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "company_name": "Asian Paints Ltd.",
+      "industry": "Consumer Durables",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        1.7009589672088623
+      ],
+      "test_results": {
+        "price for ASIANPAINT": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 1.7009589672088623,
+          "content_preview": "\ud83d\udcb0 **asianpaint** (asian paints limited)\n\n**current price**: \u20b92382.40\n**change**: \ud83d\udcc9 down \u20b916.50 (-0.69%)\n**market cap**: $2.33t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AIAENG",
+      "company_name": "AIA Engineering Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        1.6708340644836426
+      ],
+      "test_results": {
+        "price for AIAENG": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 1.6708340644836426,
+          "content_preview": "\ud83d\udcb0 **aiaeng** (aia engineering limited)\n\n**current price**: \u20b93368.00\n**change**: \ud83d\udcc9 down \u20b979.50 (-2.31%)\n**market cap**: $314.30b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "3MINDIA",
+      "company_name": "3M India Ltd.",
+      "industry": "Diversified",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.0004987716674804688,
+        1.500269889831543,
+        0.4041011333465576
+      ],
+      "test_results": {
+        "price for 3MINDIA": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": false,
+          "response_time": 0.0004987716674804688,
+          "content_preview": "\ud83c\uddee\ud83c\uddf3 i'm your indian stock market ai! ask me about stocks like:\n\n\u2022 'reliance price' or 'what's tcs worth?'\n\u2022 'hdfc bank stock' or 'infosys price'\n\u2022 'tell me about tata motors'\n\ni understand both company..."
+        },
+        "get me price of 3MINDIA": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": true,
+          "response_time": 1.500269889831543,
+          "content_preview": "\u274c sorry, i couldn't find stock data for **me**.\n\n\ud83e\udd14 did you mean: **maruti**, **jswsteel**, **reliance**?\n\n\ud83d\udca1 try asking: 'what's the price of maruti?'"
+        },
+        "3M India Ltd. price": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4041011333465576,
+          "content_preview": "\ud83d\udcb0 **lt** (larsen & toubro limited)\n\n**current price**: \u20b93464.80\n**change**: \ud83d\udcc9 down \u20b99.20 (-0.26%)\n**market cap**: $4.93t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ADANIGREEN",
+      "company_name": "Adani Green Energy Ltd.",
+      "industry": "Power",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5015320777893066
+      ],
+      "test_results": {
+        "price for ADANIGREEN": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5015320777893066,
+          "content_preview": "\ud83d\udcb0 **adaniports** (adani ports and special economic zone limited)\n\n**current price**: \u20b91443.10\n**change**: \ud83d\udcc9 down \u20b99.40 (-0.65%)\n**market cap**: $3.12t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian mark..."
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AEGISLOG",
+      "company_name": "Aegis Logistics Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.613523006439209
+      ],
+      "test_results": {
+        "price for AEGISLOG": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.613523006439209,
+          "content_preview": "\ud83d\udcb0 **aegislog** (aegislog)\n\n**current price**: \u20b9741.15\n**change**: \ud83d\udcc9 down \u20b94.40 (-0.59%)\n**market cap**: $262.53b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ALKEM",
+      "company_name": "Alkem Laboratories Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5207901000976562
+      ],
+      "test_results": {
+        "price for ALKEM": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5207901000976562,
+          "content_preview": "\ud83d\udcb0 **alkem** (alkem laboratories limited)\n\n**current price**: \u20b94998.50\n**change**: \ud83d\udcc9 down \u20b920.20 (-0.40%)\n**market cap**: $597.65b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ASTERDM",
+      "company_name": "Aster DM Healthcare Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.3218228816986084
+      ],
+      "test_results": {
+        "price for ASTERDM": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.3218228816986084,
+          "content_preview": "\ud83d\udcb0 **asterdm** (aster dm healthcare limited)\n\n**current price**: \u20b9594.65\n**change**: \ud83d\udcc8 up \u20b90.30 (+0.05%)\n**market cap**: $321.54b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "APARINDS",
+      "company_name": "Apar Industries Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.4797697067260742
+      ],
+      "test_results": {
+        "price for APARINDS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4797697067260742,
+          "content_preview": "\ud83d\udcb0 **aparinds** (apar industries limited)\n\n**current price**: \u20b98902.00\n**change**: \ud83d\udcc8 up \u20b942.50 (+0.48%)\n**market cap**: $357.58b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "company_name": "Adani Ports and Special Economic Zone Ltd.",
+      "industry": "Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.25153303146362305
+      ],
+      "test_results": {
+        "price for ADANIPORTS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.25153303146362305,
+          "content_preview": "\ud83d\udcb0 **adaniports** (adani ports and special economic zone limited)\n\n**current price**: \u20b91443.10\n**change**: \ud83d\udcc9 down \u20b99.40 (-0.65%)\n**market cap**: $3.12t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian mark..."
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ACMESOLAR",
+      "company_name": "ACME Solar Holdings Ltd.",
+      "industry": "Power",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.48111391067504883
+      ],
+      "test_results": {
+        "price for ACMESOLAR": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.48111391067504883,
+          "content_preview": "\ud83d\udcb0 **acmesolar** (acmesolar)\n\n**current price**: \u20b9275.54\n**change**: \ud83d\udcc9 down \u20b93.00 (-1.08%)\n**market cap**: $166.73b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AADHARHFC",
+      "company_name": "Aadhar Housing Finance Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.48155808448791504
+      ],
+      "test_results": {
+        "price for AADHARHFC": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.48155808448791504,
+          "content_preview": "\ud83d\udcb0 **aadharhfc** (aadharhfc)\n\n**current price**: \u20b9504.70\n**change**: \ud83d\udcc8 up \u20b91.95 (+0.39%)\n**market cap**: $218.06b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ALKYLAMINE",
+      "company_name": "Alkyl Amines Chemicals Ltd.",
+      "industry": "Chemicals",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.34136390686035156
+      ],
+      "test_results": {
+        "price for ALKYLAMINE": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.34136390686035156,
+          "content_preview": "\ud83d\udcb0 **alkylamine** (alkyl amines chemicals limited)\n\n**current price**: \u20b92254.90\n**change**: \ud83d\udcc9 down \u20b969.10 (-2.97%)\n**market cap**: $118.99b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ALOKINDS",
+      "company_name": "Alok Industries Ltd.",
+      "industry": "Textiles",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.42430782318115234
+      ],
+      "test_results": {
+        "price for ALOKINDS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.42430782318115234,
+          "content_preview": "\ud83d\udcb0 **alokinds** (alok industries limited)\n\n**current price**: \u20b920.82\n**change**: \ud83d\udcc9 down \u20b91.22 (-5.54%)\n**market cap**: $103.38b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "company_name": "Apollo Hospitals Enterprise Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5126349925994873
+      ],
+      "test_results": {
+        "price for APOLLOHOSP": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5126349925994873,
+          "content_preview": "\ud83d\udcb0 **apollohosp** (apollo hospitals enterprise limited)\n\n**current price**: \u20b97303.50\n**change**: \ud83d\udcc9 down \u20b947.00 (-0.64%)\n**market cap**: $1.09t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ABB",
+      "company_name": "ABB India Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5127100944519043
+      ],
+      "test_results": {
+        "price for ABB": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5127100944519043,
+          "content_preview": "\ud83d\udcb0 **abb** (abb india limited)\n\n**current price**: \u20b95646.50\n**change**: \ud83d\udcc8 up \u20b99.00 (+0.16%)\n**market cap**: $1.24t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ASTRAZEN",
+      "company_name": "AstraZenca Pharma India Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.6803467273712158
+      ],
+      "test_results": {
+        "price for ASTRAZEN": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.6803467273712158,
+          "content_preview": "\ud83d\udcb0 **astrazen** (astrazeneca pharma india limited)\n\n**current price**: \u20b99119.00\n**change**: \ud83d\udcc9 down \u20b9243.00 (-2.60%)\n**market cap**: $227.98b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "company_name": "APL Apollo Tubes Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5021989345550537
+      ],
+      "test_results": {
+        "price for APLAPOLLO": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5021989345550537,
+          "content_preview": "\ud83d\udcb0 **aplapollo** (apl apollo tubes limited)\n\n**current price**: \u20b91666.40\n**change**: \ud83d\udcc9 down \u20b928.40 (-1.68%)\n**market cap**: $472.75b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AARTIIND",
+      "company_name": "Aarti Industries Ltd.",
+      "industry": "Chemicals",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5345168113708496
+      ],
+      "test_results": {
+        "price for AARTIIND": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5345168113708496,
+          "content_preview": "\ud83d\udcb0 **aartiind** (aarti industries limited)\n\n**current price**: \u20b9446.65\n**change**: \ud83d\udcc9 down \u20b99.65 (-2.11%)\n**market cap**: $165.63b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ADANIPOWER",
+      "company_name": "Adani Power Ltd.",
+      "industry": "Power",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.49503588676452637
+      ],
+      "test_results": {
+        "price for ADANIPOWER": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.49503588676452637,
+          "content_preview": "\ud83d\udcb0 **adaniports** (adani ports and special economic zone limited)\n\n**current price**: \u20b91443.10\n**change**: \ud83d\udcc9 down \u20b99.40 (-0.65%)\n**market cap**: $3.12t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian mark..."
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AFCONS",
+      "company_name": "Afcons Infrastructure Ltd.",
+      "industry": "Construction",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        2.50016713142395
+      ],
+      "test_results": {
+        "price for AFCONS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 2.50016713142395,
+          "content_preview": "\ud83d\udcb0 **afcons** (afcons)\n\n**current price**: \u20b9417.15\n**change**: \ud83d\udcc8 up \u20b93.35 (+0.81%)\n**market cap**: $156.24b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "APOLLOTYRE",
+      "company_name": "Apollo Tyres Ltd.",
+      "industry": "Automobile and Auto Components",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        3.511018991470337
+      ],
+      "test_results": {
+        "price for APOLLOTYRE": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 3.511018991470337,
+          "content_preview": "\ud83d\udcb0 **apollotyre** (apollo tyres limited)\n\n**current price**: \u20b9455.15\n**change**: \ud83d\udcc9 down \u20b93.00 (-0.65%)\n**market cap**: $290.58b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ARE&M",
+      "company_name": "Amara Raja Energy & Mobility Ltd.",
+      "industry": "Automobile and Auto Components",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        2.048839807510376,
+        1.4292640686035156,
+        0.3960990905761719
+      ],
+      "test_results": {
+        "price for ARE&M": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": true,
+          "response_time": 2.048839807510376,
+          "content_preview": "\u274c sorry, i couldn't find stock data for **arem**.\n\n\ud83e\udd14 did you mean: **acc**, **tcs**, **maruti**?\n\n\ud83d\udca1 try asking: 'what's the price of acc?'"
+        },
+        "get me price of ARE&M": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": true,
+          "response_time": 1.4292640686035156,
+          "content_preview": "\u274c sorry, i couldn't find stock data for **arem**.\n\n\ud83e\udd14 did you mean: **acc**, **tcs**, **maruti**?\n\n\ud83d\udca1 try asking: 'what's the price of acc?'"
+        },
+        "Amara Raja Energy & Mobility Ltd. price": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.3960990905761719,
+          "content_preview": "\ud83d\udcb0 **lt** (larsen & toubro limited)\n\n**current price**: \u20b93464.80\n**change**: \ud83d\udcc9 down \u20b99.20 (-0.26%)\n**market cap**: $4.93t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ASTRAL",
+      "company_name": "Astral Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        1.6505773067474365
+      ],
+      "test_results": {
+        "price for ASTRAL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 1.6505773067474365,
+          "content_preview": "\ud83d\udcb0 **astral** (astral limited)\n\n**current price**: \u20b91506.90\n**change**: \ud83d\udcc8 up \u20b91.80 (+0.12%)\n**market cap**: $404.81b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AUBANK",
+      "company_name": "AU Small Finance Bank Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.40145373344421387
+      ],
+      "test_results": {
+        "price for AUBANK": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.40145373344421387,
+          "content_preview": "\ud83d\udcb0 **aubank** (au small finance bank limited)\n\n**current price**: \u20b9794.90\n**change**: \ud83d\udcc9 down \u20b92.05 (-0.26%)\n**market cap**: $604.15b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AAVAS",
+      "company_name": "Aavas Financiers Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.4952089786529541
+      ],
+      "test_results": {
+        "price for AAVAS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4952089786529541,
+          "content_preview": "\ud83d\udcb0 **aavas** (aavas financiers limited)\n\n**current price**: \u20b91903.70\n**change**: \ud83d\udcc9 down \u20b924.10 (-1.25%)\n**market cap**: $150.69b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ATGL",
+      "company_name": "Adani Total Gas Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.4838728904724121
+      ],
+      "test_results": {
+        "price for ATGL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4838728904724121,
+          "content_preview": "\ud83d\udcb0 **atgl** (adani total gas limited)\n\n**current price**: \u20b9653.45\n**change**: \ud83d\udcc9 down \u20b98.20 (-1.24%)\n**market cap**: $718.67b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AFFLE",
+      "company_name": "Affle 3i Ltd.",
+      "industry": "Information Technology",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5474939346313477
+      ],
+      "test_results": {
+        "price for AFFLE": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5474939346313477,
+          "content_preview": "\ud83d\udcb0 **affle** (affle 3i limited)\n\n**current price**: \u20b91903.80\n**change**: \ud83d\udcc9 down \u20b938.60 (-1.99%)\n**market cap**: $273.44b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AMBER",
+      "company_name": "Amber Enterprises India Ltd.",
+      "industry": "Consumer Durables",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.3075118064880371
+      ],
+      "test_results": {
+        "price for AMBER": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.3075118064880371,
+          "content_preview": "\ud83d\udcb0 **amber** (amber enterprises india limited)\n\n**current price**: \u20b97603.50\n**change**: \ud83d\udcc8 up \u20b99.50 (+0.13%)\n**market cap**: $257.63b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "APTUS",
+      "company_name": "Aptus Value Housing Finance India Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5398929119110107
+      ],
+      "test_results": {
+        "price for APTUS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5398929119110107,
+          "content_preview": "\ud83d\udcb0 **aptus** (aptus value housing finance india limited)\n\n**current price**: \u20b9350.75\n**change**: \ud83d\udcc8 up \u20b96.10 (+1.77%)\n**market cap**: $175.35b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ABBOTINDIA",
+      "company_name": "Abbott India Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.49428486824035645
+      ],
+      "test_results": {
+        "price for ABBOTINDIA": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.49428486824035645,
+          "content_preview": "\ud83d\udcb0 **abbotindia** (abbott india limited)\n\n**current price**: \u20b934125.00\n**change**: \ud83d\udcc9 down \u20b940.00 (-0.12%)\n**market cap**: $731.38b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "ABCAPITAL",
+      "company_name": "Aditya Birla Capital Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5684719085693359
+      ],
+      "test_results": {
+        "price for ABCAPITAL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5684719085693359,
+          "content_preview": "\ud83d\udcb0 **abcapital** (aditya birla capital limited)\n\n**current price**: \u20b9264.35\n**change**: \ud83d\udcc9 down \u20b94.65 (-1.73%)\n**market cap**: $708.05b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AJANTPHARM",
+      "company_name": "Ajanta Pharmaceuticals Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5162661075592041
+      ],
+      "test_results": {
+        "price for AJANTPHARM": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5162661075592041,
+          "content_preview": "\ud83d\udcb0 **ajantpharm** (ajanta pharma limited)\n\n**current price**: \u20b92772.80\n**change**: \ud83d\udcc9 down \u20b913.60 (-0.49%)\n**market cap**: $346.36b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    {
+      "symbol": "AMBUJACEM",
+      "company_name": "Ambuja Cements Ltd.",
+      "industry": "Construction Materials",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.47807788848876953
+      ],
+      "test_results": {
+        "price for AMBUJACEM": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.47807788848876953,
+          "content_preview": "\ud83d\udcb0 **ambujacem** (ambuja cements limited)\n\n**current price**: \u20b9596.70\n**change**: \ud83d\udcc8 up \u20b92.10 (+0.35%)\n**market cap**: $1.47t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    }
+  ],
+  "failed_stocks": [],
+  "detection_details": {
+    "AWL": {
+      "symbol": "AWL",
+      "company_name": "AWL Agri Business Ltd.",
+      "industry": "Fast Moving Consumer Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        3.1639647483825684
+      ],
+      "test_results": {
+        "price for AWL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 3.1639647483825684,
+          "content_preview": "\ud83d\udcb0 **awl** (awl agri business limited)\n\n**current price**: \u20b9274.55\n**change**: \ud83d\udcc9 down \u20b93.75 (-1.35%)\n**market cap**: $355.62b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ACE": {
+      "symbol": "ACE",
+      "company_name": "Action Construction Equipment Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        3.3035831451416016
+      ],
+      "test_results": {
+        "price for ACE": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 3.3035831451416016,
+          "content_preview": "\ud83d\udcb0 **ace** (action construction equipment limited)\n\n**current price**: \u20b91140.60\n**change**: \ud83d\udcc9 down \u20b98.60 (-0.75%)\n**market cap**: $140.93b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ABFRL": {
+      "symbol": "ABFRL",
+      "company_name": "Aditya Birla Fashion and Retail Ltd.",
+      "industry": "Consumer Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.8011529445648193
+      ],
+      "test_results": {
+        "price for ABFRL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.8011529445648193,
+          "content_preview": "\ud83d\udcb0 **abfrl** (aditya birla fashion and retail limited)\n\n**current price**: \u20b975.51\n**change**: \ud83d\udcc9 down \u20b90.21 (-0.28%)\n**market cap**: $94.70b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "AKUMS": {
+      "symbol": "AKUMS",
+      "company_name": "Akums Drugs and Pharmaceuticals Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.7070620059967041
+      ],
+      "test_results": {
+        "price for AKUMS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.7070620059967041,
+          "content_preview": "\ud83d\udcb0 **akums** (akums)\n\n**current price**: \u20b9552.85\n**change**: \ud83d\udcc9 down \u20b97.35 (-1.31%)\n**market cap**: $86.19b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "360ONE": {
+      "symbol": "360ONE",
+      "company_name": "360 ONE WAM Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.029986858367919922,
+        3.119529962539673,
+        0.9649109840393066
+      ],
+      "test_results": {
+        "price for 360ONE": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": false,
+          "response_time": 0.029986858367919922,
+          "content_preview": "\ud83c\uddee\ud83c\uddf3 i'm your indian stock market ai! ask me about stocks like:\n\n\u2022 'reliance price' or 'what's tcs worth?'\n\u2022 'hdfc bank stock' or 'infosys price'\n\u2022 'tell me about tata motors'\n\ni understand both company..."
+        },
+        "get me price of 360ONE": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": true,
+          "response_time": 3.119529962539673,
+          "content_preview": "\u274c sorry, i couldn't find stock data for **me**.\n\n\ud83e\udd14 did you mean: **maruti**, **gmdcltd**, **cipla**?\n\n\ud83d\udca1 try asking: 'what's the price of maruti?'"
+        },
+        "360 ONE WAM Ltd. price": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.9649109840393066,
+          "content_preview": "\ud83d\udcb0 **lt** (larsen & toubro limited)\n\n**current price**: \u20b93464.80\n**change**: \ud83d\udcc9 down \u20b99.20 (-0.26%)\n**market cap**: $4.93t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ANANDRATHI": {
+      "symbol": "ANANDRATHI",
+      "company_name": "Anand Rathi Wealth Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        1.0016541481018066
+      ],
+      "test_results": {
+        "price for ANANDRATHI": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 1.0016541481018066,
+          "content_preview": "\ud83d\udcb0 **anandrathi** (anand rathi wealth limited)\n\n**current price**: \u20b92621.20\n**change**: \ud83d\udcc8 up \u20b934.70 (+1.34%)\n**market cap**: $217.61b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ADANIENSOL": {
+      "symbol": "ADANIENSOL",
+      "company_name": "Adani Energy Solutions Ltd.",
+      "industry": "Power",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.8754539489746094
+      ],
+      "test_results": {
+        "price for ADANIENSOL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.8754539489746094,
+          "content_preview": "\ud83d\udcb0 **adaniports** (adani ports and special economic zone limited)\n\n**current price**: \u20b91443.10\n**change**: \ud83d\udcc9 down \u20b99.40 (-0.65%)\n**market cap**: $3.12t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian mark..."
+        }
+      },
+      "errors": []
+    },
+    "ASAHIINDIA": {
+      "symbol": "ASAHIINDIA",
+      "company_name": "Asahi India Glass Ltd.",
+      "industry": "Automobile and Auto Components",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        1.050126075744629
+      ],
+      "test_results": {
+        "price for ASAHIINDIA": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 1.050126075744629,
+          "content_preview": "\ud83d\udcb0 **asahiindia** (asahi india glass limited)\n\n**current price**: \u20b9842.00\n**change**: \ud83d\udcc9 down \u20b931.05 (-3.56%)\n**market cap**: $204.68b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "APLLTD": {
+      "symbol": "APLLTD",
+      "company_name": "Alembic Pharmaceuticals Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.1478118896484375
+      ],
+      "test_results": {
+        "price for APLLTD": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.1478118896484375,
+          "content_preview": "\ud83d\udcb0 **lt** (larsen & toubro limited)\n\n**current price**: \u20b93464.80\n**change**: \ud83d\udcc9 down \u20b99.20 (-0.26%)\n**market cap**: $4.93t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ABREL": {
+      "symbol": "ABREL",
+      "company_name": "Aditya Birla Real Estate Ltd.",
+      "industry": "Forest Materials",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.34672999382019043
+      ],
+      "test_results": {
+        "price for ABREL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.34672999382019043,
+          "content_preview": "\ud83d\udcb0 **abrel** (aditya birla real estate limited)\n\n**current price**: \u20b92122.80\n**change**: \ud83d\udcc9 down \u20b944.80 (-2.07%)\n**market cap**: $246.22b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ANANTRAJ": {
+      "symbol": "ANANTRAJ",
+      "company_name": "Anant Raj Ltd.",
+      "industry": "Realty",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.37386107444763184
+      ],
+      "test_results": {
+        "price for ANANTRAJ": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.37386107444763184,
+          "content_preview": "\ud83d\udcb0 **anantraj** (anant raj limited)\n\n**current price**: \u20b9589.20\n**change**: \ud83d\udcc9 down \u20b912.20 (-2.03%)\n**market cap**: $202.25b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ASHOKLEY": {
+      "symbol": "ASHOKLEY",
+      "company_name": "Ashok Leyland Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.43063783645629883
+      ],
+      "test_results": {
+        "price for ASHOKLEY": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.43063783645629883,
+          "content_preview": "\ud83d\udcb0 **ashokley** (ashok leyland limited)\n\n**current price**: \u20b9122.25\n**change**: \ud83d\udcc9 down \u20b91.50 (-1.21%)\n**market cap**: $723.78b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ACC": {
+      "symbol": "ACC",
+      "company_name": "ACC Ltd.",
+      "industry": "Construction Materials",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.4122629165649414
+      ],
+      "test_results": {
+        "price for ACC": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4122629165649414,
+          "content_preview": "\ud83d\udcb0 **acc** (acc limited)\n\n**current price**: \u20b91969.90\n**change**: \ud83d\udcc9 down \u20b98.90 (-0.45%)\n**market cap**: $369.92b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ADANIENT": {
+      "symbol": "ADANIENT",
+      "company_name": "Adani Enterprises Ltd.",
+      "industry": "Metals & Mining",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.34755587577819824
+      ],
+      "test_results": {
+        "price for ADANIENT": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.34755587577819824,
+          "content_preview": "\ud83d\udcb0 **adaniports** (adani ports and special economic zone limited)\n\n**current price**: \u20b91443.10\n**change**: \ud83d\udcc9 down \u20b99.40 (-0.65%)\n**market cap**: $3.12t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian mark..."
+        }
+      },
+      "errors": []
+    },
+    "ABSLAMC": {
+      "symbol": "ABSLAMC",
+      "company_name": "Aditya Birla Sun Life AMC Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.4942750930786133
+      ],
+      "test_results": {
+        "price for ABSLAMC": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4942750930786133,
+          "content_preview": "\ud83d\udcb0 **abslamc** (aditya birla sun life amc limited)\n\n**current price**: \u20b9864.35\n**change**: \ud83d\udcc8 up \u20b90.20 (+0.02%)\n**market cap**: $249.47b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ALIVUS": {
+      "symbol": "ALIVUS",
+      "company_name": "Alivus Life Sciences Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.38515806198120117
+      ],
+      "test_results": {
+        "price for ALIVUS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.38515806198120117,
+          "content_preview": "\ud83d\udcb0 **alivus** (alivus life sciences limited)\n\n**current price**: \u20b91058.30\n**change**: \ud83d\udcc9 down \u20b910.50 (-0.98%)\n**market cap**: $129.78b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ANGELONE": {
+      "symbol": "ANGELONE",
+      "company_name": "Angel One Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.34998106956481934
+      ],
+      "test_results": {
+        "price for ANGELONE": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.34998106956481934,
+          "content_preview": "\ud83d\udcb0 **angelone** (angel one limited)\n\n**current price**: \u20b92678.00\n**change**: \ud83d\udcc9 down \u20b962.10 (-2.27%)\n**market cap**: $247.16b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ASIANPAINT": {
+      "symbol": "ASIANPAINT",
+      "company_name": "Asian Paints Ltd.",
+      "industry": "Consumer Durables",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        1.7009589672088623
+      ],
+      "test_results": {
+        "price for ASIANPAINT": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 1.7009589672088623,
+          "content_preview": "\ud83d\udcb0 **asianpaint** (asian paints limited)\n\n**current price**: \u20b92382.40\n**change**: \ud83d\udcc9 down \u20b916.50 (-0.69%)\n**market cap**: $2.33t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "AIAENG": {
+      "symbol": "AIAENG",
+      "company_name": "AIA Engineering Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        1.6708340644836426
+      ],
+      "test_results": {
+        "price for AIAENG": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 1.6708340644836426,
+          "content_preview": "\ud83d\udcb0 **aiaeng** (aia engineering limited)\n\n**current price**: \u20b93368.00\n**change**: \ud83d\udcc9 down \u20b979.50 (-2.31%)\n**market cap**: $314.30b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "3MINDIA": {
+      "symbol": "3MINDIA",
+      "company_name": "3M India Ltd.",
+      "industry": "Diversified",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.0004987716674804688,
+        1.500269889831543,
+        0.4041011333465576
+      ],
+      "test_results": {
+        "price for 3MINDIA": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": false,
+          "response_time": 0.0004987716674804688,
+          "content_preview": "\ud83c\uddee\ud83c\uddf3 i'm your indian stock market ai! ask me about stocks like:\n\n\u2022 'reliance price' or 'what's tcs worth?'\n\u2022 'hdfc bank stock' or 'infosys price'\n\u2022 'tell me about tata motors'\n\ni understand both company..."
+        },
+        "get me price of 3MINDIA": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": true,
+          "response_time": 1.500269889831543,
+          "content_preview": "\u274c sorry, i couldn't find stock data for **me**.\n\n\ud83e\udd14 did you mean: **maruti**, **jswsteel**, **reliance**?\n\n\ud83d\udca1 try asking: 'what's the price of maruti?'"
+        },
+        "3M India Ltd. price": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4041011333465576,
+          "content_preview": "\ud83d\udcb0 **lt** (larsen & toubro limited)\n\n**current price**: \u20b93464.80\n**change**: \ud83d\udcc9 down \u20b99.20 (-0.26%)\n**market cap**: $4.93t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ADANIGREEN": {
+      "symbol": "ADANIGREEN",
+      "company_name": "Adani Green Energy Ltd.",
+      "industry": "Power",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5015320777893066
+      ],
+      "test_results": {
+        "price for ADANIGREEN": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5015320777893066,
+          "content_preview": "\ud83d\udcb0 **adaniports** (adani ports and special economic zone limited)\n\n**current price**: \u20b91443.10\n**change**: \ud83d\udcc9 down \u20b99.40 (-0.65%)\n**market cap**: $3.12t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian mark..."
+        }
+      },
+      "errors": []
+    },
+    "AEGISLOG": {
+      "symbol": "AEGISLOG",
+      "company_name": "Aegis Logistics Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.613523006439209
+      ],
+      "test_results": {
+        "price for AEGISLOG": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.613523006439209,
+          "content_preview": "\ud83d\udcb0 **aegislog** (aegislog)\n\n**current price**: \u20b9741.15\n**change**: \ud83d\udcc9 down \u20b94.40 (-0.59%)\n**market cap**: $262.53b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ALKEM": {
+      "symbol": "ALKEM",
+      "company_name": "Alkem Laboratories Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5207901000976562
+      ],
+      "test_results": {
+        "price for ALKEM": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5207901000976562,
+          "content_preview": "\ud83d\udcb0 **alkem** (alkem laboratories limited)\n\n**current price**: \u20b94998.50\n**change**: \ud83d\udcc9 down \u20b920.20 (-0.40%)\n**market cap**: $597.65b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ASTERDM": {
+      "symbol": "ASTERDM",
+      "company_name": "Aster DM Healthcare Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.3218228816986084
+      ],
+      "test_results": {
+        "price for ASTERDM": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.3218228816986084,
+          "content_preview": "\ud83d\udcb0 **asterdm** (aster dm healthcare limited)\n\n**current price**: \u20b9594.65\n**change**: \ud83d\udcc8 up \u20b90.30 (+0.05%)\n**market cap**: $321.54b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "APARINDS": {
+      "symbol": "APARINDS",
+      "company_name": "Apar Industries Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.4797697067260742
+      ],
+      "test_results": {
+        "price for APARINDS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4797697067260742,
+          "content_preview": "\ud83d\udcb0 **aparinds** (apar industries limited)\n\n**current price**: \u20b98902.00\n**change**: \ud83d\udcc8 up \u20b942.50 (+0.48%)\n**market cap**: $357.58b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ADANIPORTS": {
+      "symbol": "ADANIPORTS",
+      "company_name": "Adani Ports and Special Economic Zone Ltd.",
+      "industry": "Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.25153303146362305
+      ],
+      "test_results": {
+        "price for ADANIPORTS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.25153303146362305,
+          "content_preview": "\ud83d\udcb0 **adaniports** (adani ports and special economic zone limited)\n\n**current price**: \u20b91443.10\n**change**: \ud83d\udcc9 down \u20b99.40 (-0.65%)\n**market cap**: $3.12t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian mark..."
+        }
+      },
+      "errors": []
+    },
+    "ACMESOLAR": {
+      "symbol": "ACMESOLAR",
+      "company_name": "ACME Solar Holdings Ltd.",
+      "industry": "Power",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.48111391067504883
+      ],
+      "test_results": {
+        "price for ACMESOLAR": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.48111391067504883,
+          "content_preview": "\ud83d\udcb0 **acmesolar** (acmesolar)\n\n**current price**: \u20b9275.54\n**change**: \ud83d\udcc9 down \u20b93.00 (-1.08%)\n**market cap**: $166.73b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "AADHARHFC": {
+      "symbol": "AADHARHFC",
+      "company_name": "Aadhar Housing Finance Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.48155808448791504
+      ],
+      "test_results": {
+        "price for AADHARHFC": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.48155808448791504,
+          "content_preview": "\ud83d\udcb0 **aadharhfc** (aadharhfc)\n\n**current price**: \u20b9504.70\n**change**: \ud83d\udcc8 up \u20b91.95 (+0.39%)\n**market cap**: $218.06b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ALKYLAMINE": {
+      "symbol": "ALKYLAMINE",
+      "company_name": "Alkyl Amines Chemicals Ltd.",
+      "industry": "Chemicals",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.34136390686035156
+      ],
+      "test_results": {
+        "price for ALKYLAMINE": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.34136390686035156,
+          "content_preview": "\ud83d\udcb0 **alkylamine** (alkyl amines chemicals limited)\n\n**current price**: \u20b92254.90\n**change**: \ud83d\udcc9 down \u20b969.10 (-2.97%)\n**market cap**: $118.99b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ALOKINDS": {
+      "symbol": "ALOKINDS",
+      "company_name": "Alok Industries Ltd.",
+      "industry": "Textiles",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.42430782318115234
+      ],
+      "test_results": {
+        "price for ALOKINDS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.42430782318115234,
+          "content_preview": "\ud83d\udcb0 **alokinds** (alok industries limited)\n\n**current price**: \u20b920.82\n**change**: \ud83d\udcc9 down \u20b91.22 (-5.54%)\n**market cap**: $103.38b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "APOLLOHOSP": {
+      "symbol": "APOLLOHOSP",
+      "company_name": "Apollo Hospitals Enterprise Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5126349925994873
+      ],
+      "test_results": {
+        "price for APOLLOHOSP": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5126349925994873,
+          "content_preview": "\ud83d\udcb0 **apollohosp** (apollo hospitals enterprise limited)\n\n**current price**: \u20b97303.50\n**change**: \ud83d\udcc9 down \u20b947.00 (-0.64%)\n**market cap**: $1.09t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ABB": {
+      "symbol": "ABB",
+      "company_name": "ABB India Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5127100944519043
+      ],
+      "test_results": {
+        "price for ABB": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5127100944519043,
+          "content_preview": "\ud83d\udcb0 **abb** (abb india limited)\n\n**current price**: \u20b95646.50\n**change**: \ud83d\udcc8 up \u20b99.00 (+0.16%)\n**market cap**: $1.24t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ASTRAZEN": {
+      "symbol": "ASTRAZEN",
+      "company_name": "AstraZenca Pharma India Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.6803467273712158
+      ],
+      "test_results": {
+        "price for ASTRAZEN": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.6803467273712158,
+          "content_preview": "\ud83d\udcb0 **astrazen** (astrazeneca pharma india limited)\n\n**current price**: \u20b99119.00\n**change**: \ud83d\udcc9 down \u20b9243.00 (-2.60%)\n**market cap**: $227.98b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "APLAPOLLO": {
+      "symbol": "APLAPOLLO",
+      "company_name": "APL Apollo Tubes Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5021989345550537
+      ],
+      "test_results": {
+        "price for APLAPOLLO": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5021989345550537,
+          "content_preview": "\ud83d\udcb0 **aplapollo** (apl apollo tubes limited)\n\n**current price**: \u20b91666.40\n**change**: \ud83d\udcc9 down \u20b928.40 (-1.68%)\n**market cap**: $472.75b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "AARTIIND": {
+      "symbol": "AARTIIND",
+      "company_name": "Aarti Industries Ltd.",
+      "industry": "Chemicals",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5345168113708496
+      ],
+      "test_results": {
+        "price for AARTIIND": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5345168113708496,
+          "content_preview": "\ud83d\udcb0 **aartiind** (aarti industries limited)\n\n**current price**: \u20b9446.65\n**change**: \ud83d\udcc9 down \u20b99.65 (-2.11%)\n**market cap**: $165.63b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ADANIPOWER": {
+      "symbol": "ADANIPOWER",
+      "company_name": "Adani Power Ltd.",
+      "industry": "Power",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.49503588676452637
+      ],
+      "test_results": {
+        "price for ADANIPOWER": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.49503588676452637,
+          "content_preview": "\ud83d\udcb0 **adaniports** (adani ports and special economic zone limited)\n\n**current price**: \u20b91443.10\n**change**: \ud83d\udcc9 down \u20b99.40 (-0.65%)\n**market cap**: $3.12t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian mark..."
+        }
+      },
+      "errors": []
+    },
+    "AFCONS": {
+      "symbol": "AFCONS",
+      "company_name": "Afcons Infrastructure Ltd.",
+      "industry": "Construction",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        2.50016713142395
+      ],
+      "test_results": {
+        "price for AFCONS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 2.50016713142395,
+          "content_preview": "\ud83d\udcb0 **afcons** (afcons)\n\n**current price**: \u20b9417.15\n**change**: \ud83d\udcc8 up \u20b93.35 (+0.81%)\n**market cap**: $156.24b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "APOLLOTYRE": {
+      "symbol": "APOLLOTYRE",
+      "company_name": "Apollo Tyres Ltd.",
+      "industry": "Automobile and Auto Components",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        3.511018991470337
+      ],
+      "test_results": {
+        "price for APOLLOTYRE": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 3.511018991470337,
+          "content_preview": "\ud83d\udcb0 **apollotyre** (apollo tyres limited)\n\n**current price**: \u20b9455.15\n**change**: \ud83d\udcc9 down \u20b93.00 (-0.65%)\n**market cap**: $290.58b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ARE&M": {
+      "symbol": "ARE&M",
+      "company_name": "Amara Raja Energy & Mobility Ltd.",
+      "industry": "Automobile and Auto Components",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        2.048839807510376,
+        1.4292640686035156,
+        0.3960990905761719
+      ],
+      "test_results": {
+        "price for ARE&M": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": true,
+          "response_time": 2.048839807510376,
+          "content_preview": "\u274c sorry, i couldn't find stock data for **arem**.\n\n\ud83e\udd14 did you mean: **acc**, **tcs**, **maruti**?\n\n\ud83d\udca1 try asking: 'what's the price of acc?'"
+        },
+        "get me price of ARE&M": {
+          "status": "success",
+          "has_price_data": false,
+          "is_error_response": true,
+          "response_time": 1.4292640686035156,
+          "content_preview": "\u274c sorry, i couldn't find stock data for **arem**.\n\n\ud83e\udd14 did you mean: **acc**, **tcs**, **maruti**?\n\n\ud83d\udca1 try asking: 'what's the price of acc?'"
+        },
+        "Amara Raja Energy & Mobility Ltd. price": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.3960990905761719,
+          "content_preview": "\ud83d\udcb0 **lt** (larsen & toubro limited)\n\n**current price**: \u20b93464.80\n**change**: \ud83d\udcc9 down \u20b99.20 (-0.26%)\n**market cap**: $4.93t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ASTRAL": {
+      "symbol": "ASTRAL",
+      "company_name": "Astral Ltd.",
+      "industry": "Capital Goods",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        1.6505773067474365
+      ],
+      "test_results": {
+        "price for ASTRAL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 1.6505773067474365,
+          "content_preview": "\ud83d\udcb0 **astral** (astral limited)\n\n**current price**: \u20b91506.90\n**change**: \ud83d\udcc8 up \u20b91.80 (+0.12%)\n**market cap**: $404.81b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "AUBANK": {
+      "symbol": "AUBANK",
+      "company_name": "AU Small Finance Bank Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.40145373344421387
+      ],
+      "test_results": {
+        "price for AUBANK": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.40145373344421387,
+          "content_preview": "\ud83d\udcb0 **aubank** (au small finance bank limited)\n\n**current price**: \u20b9794.90\n**change**: \ud83d\udcc9 down \u20b92.05 (-0.26%)\n**market cap**: $604.15b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "AAVAS": {
+      "symbol": "AAVAS",
+      "company_name": "Aavas Financiers Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.4952089786529541
+      ],
+      "test_results": {
+        "price for AAVAS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4952089786529541,
+          "content_preview": "\ud83d\udcb0 **aavas** (aavas financiers limited)\n\n**current price**: \u20b91903.70\n**change**: \ud83d\udcc9 down \u20b924.10 (-1.25%)\n**market cap**: $150.69b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ATGL": {
+      "symbol": "ATGL",
+      "company_name": "Adani Total Gas Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.4838728904724121
+      ],
+      "test_results": {
+        "price for ATGL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.4838728904724121,
+          "content_preview": "\ud83d\udcb0 **atgl** (adani total gas limited)\n\n**current price**: \u20b9653.45\n**change**: \ud83d\udcc9 down \u20b98.20 (-1.24%)\n**market cap**: $718.67b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "AFFLE": {
+      "symbol": "AFFLE",
+      "company_name": "Affle 3i Ltd.",
+      "industry": "Information Technology",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5474939346313477
+      ],
+      "test_results": {
+        "price for AFFLE": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5474939346313477,
+          "content_preview": "\ud83d\udcb0 **affle** (affle 3i limited)\n\n**current price**: \u20b91903.80\n**change**: \ud83d\udcc9 down \u20b938.60 (-1.99%)\n**market cap**: $273.44b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "AMBER": {
+      "symbol": "AMBER",
+      "company_name": "Amber Enterprises India Ltd.",
+      "industry": "Consumer Durables",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.3075118064880371
+      ],
+      "test_results": {
+        "price for AMBER": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.3075118064880371,
+          "content_preview": "\ud83d\udcb0 **amber** (amber enterprises india limited)\n\n**current price**: \u20b97603.50\n**change**: \ud83d\udcc8 up \u20b99.50 (+0.13%)\n**market cap**: $257.63b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "APTUS": {
+      "symbol": "APTUS",
+      "company_name": "Aptus Value Housing Finance India Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5398929119110107
+      ],
+      "test_results": {
+        "price for APTUS": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5398929119110107,
+          "content_preview": "\ud83d\udcb0 **aptus** (aptus value housing finance india limited)\n\n**current price**: \u20b9350.75\n**change**: \ud83d\udcc8 up \u20b96.10 (+1.77%)\n**market cap**: $175.35b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ABBOTINDIA": {
+      "symbol": "ABBOTINDIA",
+      "company_name": "Abbott India Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.49428486824035645
+      ],
+      "test_results": {
+        "price for ABBOTINDIA": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.49428486824035645,
+          "content_preview": "\ud83d\udcb0 **abbotindia** (abbott india limited)\n\n**current price**: \u20b934125.00\n**change**: \ud83d\udcc9 down \u20b940.00 (-0.12%)\n**market cap**: $731.38b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "ABCAPITAL": {
+      "symbol": "ABCAPITAL",
+      "company_name": "Aditya Birla Capital Ltd.",
+      "industry": "Financial Services",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5684719085693359
+      ],
+      "test_results": {
+        "price for ABCAPITAL": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5684719085693359,
+          "content_preview": "\ud83d\udcb0 **abcapital** (aditya birla capital limited)\n\n**current price**: \u20b9264.35\n**change**: \ud83d\udcc9 down \u20b94.65 (-1.73%)\n**market cap**: $708.05b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "AJANTPHARM": {
+      "symbol": "AJANTPHARM",
+      "company_name": "Ajanta Pharmaceuticals Ltd.",
+      "industry": "Healthcare",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.5162661075592041
+      ],
+      "test_results": {
+        "price for AJANTPHARM": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.5162661075592041,
+          "content_preview": "\ud83d\udcb0 **ajantpharm** (ajanta pharma limited)\n\n**current price**: \u20b92772.80\n**change**: \ud83d\udcc9 down \u20b913.60 (-0.49%)\n**market cap**: $346.36b\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    },
+    "AMBUJACEM": {
+      "symbol": "AMBUJACEM",
+      "company_name": "Ambuja Cements Ltd.",
+      "industry": "Construction Materials",
+      "detection_success": true,
+      "data_fetch_success": true,
+      "response_times": [
+        0.47807788848876953
+      ],
+      "test_results": {
+        "price for AMBUJACEM": {
+          "status": "success",
+          "has_price_data": true,
+          "is_error_response": false,
+          "response_time": 0.47807788848876953,
+          "content_preview": "\ud83d\udcb0 **ambujacem** (ambuja cements limited)\n\n**current price**: \u20b9596.70\n**change**: \ud83d\udcc8 up \u20b92.10 (+0.35%)\n**market cap**: $1.47t\n**exchange**: nse (india)\n\n*\ud83c\uddee\ud83c\uddf3 direct indian market data*"
+        }
+      },
+      "errors": []
+    }
+  },
+  "performance_stats": {
+    "avg_response_time": 0.8501003725188119,
+    "total_test_time": 15.947808027267456
+  }
+}

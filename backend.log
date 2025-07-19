@@ -1,0 +1,1703 @@
+INFO:     Will watch for changes in these directories: ['/Users/raghushankarkengeri/Documents/python code/stock market/AI Screener/stock-analysis-platform']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [77955] using WatchFiles
+INFO:     Started server process [77974]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:57257 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57272 - "GET /api/v1/stocks/trending HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:57274 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57317 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57365 - "POST /api/v1/auth/register HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:57372 - "POST /api/v1/auth/register HTTP/1.1" 422 Unprocessable Content
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/raghushankarkengeri/Library/Caches/pypoetry/virtualenvs/stock-analysis-platform-hPfpOJiC-py3.13/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     127.0.0.1:57408 - "POST /api/v1/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57439 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57468 - "GET /api/v1/stocks/trending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57508 - "GET /api/v1/stocks/trending?limit=10 HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:57508 - "GET /api/v1/stocks/trending?limit=10 HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:57544 - "OPTIONS /api/v1/chat/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57544 - "POST /api/v1/chat/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:57546 - "GET /api/v1/stocks/trending?limit=10 HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:57546 - "GET /api/v1/stocks/trending?limit=10 HTTP/1.1" 403 Forbidden
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [77974]
+INFO:     Started server process [78479]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78479]
+INFO:     Started server process [78498]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:57709 - "GET /api/v1/stocks/trending?limit=10 HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:57709 - "GET /api/v1/stocks/trending?limit=10 HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:57709 - "GET /api/v1/stocks/trending?limit=10 HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:57733 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "OPTIONS /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57788 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78498]
+INFO:     Started server process [78831]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+Error fetching Yahoo Finance data for AAPL: HTTP Error 404: 
+INFO:     127.0.0.1:57944 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78831]
+INFO:     Started server process [78909]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+Error fetching stock data for AAPL: 7 validation errors for Stock
+market_cap
+  Decimal input should be an integer, float, string or Decimal object [type=decimal_type, input_value=Decimal128('3154142035968'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/decimal_type
+current_price
+  Decimal input should be an integer, float, string or Decimal object [type=decimal_type, input_value=Decimal128('211.17999267578125'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/decimal_type
+price_change
+  Decimal input should be an integer, float, string or Decimal object [type=decimal_type, input_value=Decimal128('1.15998840332031'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/decimal_type
+price_change_percent
+  Decimal input should be an integer, float, string or Decimal object [type=decimal_type, input_value=Decimal128('0.5523228167424689991287646989'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/decimal_type
+pe_ratio
+  Decimal input should be an integer, float, string or Decimal object [type=decimal_type, input_value=Decimal128('32.842922'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/decimal_type
+pb_ratio
+  Decimal input should be an integer, float, string or Decimal object [type=decimal_type, input_value=Decimal128('47.233276'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/decimal_type
+dividend_yield
+  Decimal input should be an integer, float, string or Decimal object [type=decimal_type, input_value=Decimal128('0.51'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/decimal_type
+INFO:     127.0.0.1:58057 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/models/stock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78909]
+INFO:     Started server process [78959]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78959]
+INFO:     Started server process [78979]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78979]
+INFO:     Started server process [78991]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+Error fetching stock data for AAPL: 7 validation errors for Stock
+market_cap
+  Input should be a valid number [type=float_type, input_value=Decimal128('3154142035968'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+current_price
+  Input should be a valid number [type=float_type, input_value=Decimal128('211.17999267578125'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+price_change
+  Input should be a valid number [type=float_type, input_value=Decimal128('1.15998840332031'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+price_change_percent
+  Input should be a valid number [type=float_type, input_value=Decimal128('0.5523228167424689991287646989'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+pe_ratio
+  Input should be a valid number [type=float_type, input_value=Decimal128('32.842922'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+pb_ratio
+  Input should be a valid number [type=float_type, input_value=Decimal128('47.233276'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+dividend_yield
+  Input should be a valid number [type=float_type, input_value=Decimal128('0.51'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+INFO:     127.0.0.1:58211 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78991]
+INFO:     Started server process [79065]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+Error fetching stock data for AAPL: 7 validation errors for Stock
+market_cap
+  Input should be a valid number [type=float_type, input_value=Decimal128('3154142035968'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+current_price
+  Input should be a valid number [type=float_type, input_value=Decimal128('211.17999267578125'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+price_change
+  Input should be a valid number [type=float_type, input_value=Decimal128('1.15998840332031'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+price_change_percent
+  Input should be a valid number [type=float_type, input_value=Decimal128('0.5523228167424689991287646989'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+pe_ratio
+  Input should be a valid number [type=float_type, input_value=Decimal128('32.842922'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+pb_ratio
+  Input should be a valid number [type=float_type, input_value=Decimal128('47.233276'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+dividend_yield
+  Input should be a valid number [type=float_type, input_value=Decimal128('0.51'), input_type=Decimal128]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_type
+INFO:     127.0.0.1:58298 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79065]
+INFO:     Started server process [79166]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:58353 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79166]
+INFO:     Started server process [79229]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:58436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79229]
+INFO:     Started server process [79339]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:58490 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58517 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58543 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58592 - "OPTIONS /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+$IS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+INFO:     127.0.0.1:58592 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79339]
+INFO:     Started server process [79659]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79659]
+INFO:     Started server process [79700]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79700]
+INFO:     Started server process [79736]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79736]
+INFO:     Started server process [79799]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79799]
+INFO:     Started server process [79821]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:59045 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+$RELIANCE: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+INFO:     127.0.0.1:59072 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59110 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79821]
+INFO:     Started server process [79961]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:59170 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59200 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [79961]
+INFO:     Started server process [80124]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+$TCS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:59271 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80124]
+INFO:     Started server process [80210]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+$TCS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:59362 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59390 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59404 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+$HDFCLIFE: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+INFO:     127.0.0.1:59420 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80210]
+INFO:     Started server process [80350]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+$HDFCBANK: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:59458 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59494 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59519 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80350]
+INFO:     Started server process [80459]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:59575 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+$HDFCBANK: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+INFO:     127.0.0.1:59591 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80459]
+INFO:     Started server process [80531]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+$HDFCBANK: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:59664 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80531]
+INFO:     Started server process [80602]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:59710 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59737 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59763 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59792 - "OPTIONS /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+$TCS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+INFO:     127.0.0.1:59792 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80602]
+INFO:     Started server process [80820]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80820]
+INFO:     Started server process [80841]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:59886 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+$RELIANCE: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+INFO:     127.0.0.1:59919 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+$TCS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+INFO:     127.0.0.1:59950 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80841]
+INFO:     Started server process [80947]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80947]
+INFO:     Started server process [80964]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80964]
+INFO:     Started server process [80999]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:60094 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+$HDFCBANK: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+INFO:     127.0.0.1:60131 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [80999]
+INFO:     Started server process [81071]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [81071]
+INFO:     Started server process [81097]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:60201 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60225 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60236 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60253 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61481 - "OPTIONS /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61481 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61559 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [81097]
+INFO:     Started server process [82490]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+Error fetching stock data for SBIN: 1 validation error for StockResponse
+volume
+  Field required [type=missing, input_value={'symbol': 'SBIN', 'name'... 19, 2, 48, 52, 255135)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+INFO:     127.0.0.1:61715 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/models/stock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [82490]
+INFO:     Started server process [82620]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [82620]
+INFO:     Started server process [82647]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:62033 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62062 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62079 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for FETCH: HTTP Error 404: 
+INFO:     127.0.0.1:62101 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62118 - "OPTIONS /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62118 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62120 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62173 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62194 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62219 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62272 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [82647]
+INFO:     Started server process [83575]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:62354 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for PLEASE: HTTP Error 404: 
+INFO:     127.0.0.1:62419 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62452 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62538 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62546 - "OPTIONS /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62546 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for GGET: HTTP Error 404: 
+INFO:     127.0.0.1:62548 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for GGET: HTTP Error 404: 
+INFO:     127.0.0.1:62603 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62632 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [83575]
+INFO:     Started server process [84235]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+Error fetching Yahoo Finance data for GGET: HTTP Error 404: 
+INFO:     127.0.0.1:62672 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [84235]
+INFO:     Started server process [84298]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+Error fetching Yahoo Finance data for GGET: HTTP Error 404: 
+INFO:     127.0.0.1:62731 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [84298]
+INFO:     Started server process [84338]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+Error fetching Yahoo Finance data for GGET: HTTP Error 404: 
+INFO:     127.0.0.1:62779 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for GGET: HTTP Error 404: 
+INFO:     127.0.0.1:62804 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62810 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for INOX: HTTP Error 404: 
+INFO:     127.0.0.1:62818 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [84338]
+INFO:     Started server process [84516]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+Error fetching Yahoo Finance data for INOX: HTTP Error 404: 
+INFO:     127.0.0.1:62936 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [84516]
+INFO:     Started server process [84573]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:63017 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63040 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'test_nse_stocks.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [84573]
+INFO:     Started server process [84882]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:63371 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for ME: HTTP Error 404: 
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for ME: HTTP Error 404: 
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for AREM: HTTP Error 404: 
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for AREM: HTTP Error 404: 
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63396 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63400 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for ME: HTTP Error 404: 
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYABFRL: HTTP Error 404: 
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYABFRL: HTTP Error 404: 
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYSIEMS: HTTP Error 404: 
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYSIEMS: HTTP Error 404: 
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYRAYMN: HTTP Error 404: 
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYRAYMN: HTTP Error 404: 
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for ME: HTTP Error 404: 
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for AREM: HTTP Error 404: 
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for AREM: HTTP Error 404: 
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for HDB: HTTP Error 404: 
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for HDB: HTTP Error 404: 
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for HDB: HTTP Error 404: 
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for HDB: HTTP Error 404: 
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for GVTD: HTTP Error 404: 
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for HDB: HTTP Error 404: 
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for HDB: HTTP Error 404: 
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for GVTD: HTTP Error 404: 
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for HDB: HTTP Error 404: 
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for HDB: HTTP Error 404: 
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for HDB: HTTP Error 404: 
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for HDB: HTTP Error 404: 
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63432 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63436 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63437 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [84882]
+INFO:     Started server process [85107]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85107]
+INFO:     Started server process [85124]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:63578 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63601 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for ME: HTTP Error 404: 
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for JIO: HTTP Error 404: 
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for JIO: HTTP Error 404: 
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for JIO: HTTP Error 404: 
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for JIO: HTTP Error 404: 
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for JIO: HTTP Error 404: 
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYABFRL: HTTP Error 404: 
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYABFRL: HTTP Error 404: 
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYSIEMS: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYSIEMS: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYRAYMN: HTTP Error 404: 
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for DUMMYRAYMN: HTTP Error 404: 
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for ME: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for AREM: HTTP Error 404: 
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for AREM: HTTP Error 404: 
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for GVTD: HTTP Error 404: 
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for JKBANK: HTTP Error 404: 
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for GVTD: HTTP Error 404: 
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for JKBANK: HTTP Error 404: 
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63659 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63663 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63657 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63661 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63655 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63662 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+Error fetching Yahoo Finance data for IBN: HTTP Error 404: 
+INFO:     127.0.0.1:63746 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85124]
+INFO:     Started server process [85313]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85313]
+INFO:     Started server process [85325]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85325]
+INFO:     Started server process [85337]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:63848 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63917 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64057 - "OPTIONS /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64057 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64085 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64089 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64142 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85337]
+INFO:     Started server process [85662]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85662]
+INFO:     Started server process [85677]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85677]
+INFO:     Started server process [85688]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85688]
+INFO:     Started server process [85696]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:64322 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64340 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64417 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64469 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64495 - "OPTIONS /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64495 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/models/stock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85696]
+INFO:     Started server process [86087]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/models/stock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86087]
+INFO:     Started server process [86374]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86374]
+INFO:     Started server process [86383]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86383]
+INFO:     Started server process [86812]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86812]
+INFO:     Started server process [86830]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86830]
+INFO:     Started server process [86867]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86867]
+INFO:     Started server process [86889]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:65238 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65269 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86889]
+INFO:     Started server process [86940]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:65344 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86940]
+INFO:     Started server process [86966]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:65397 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/models/stock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86966]
+INFO:     Started server process [86991]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:65450 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65476 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/models/stock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86991]
+INFO:     Started server process [87033]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:49152 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49171 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49198 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49253 - "OPTIONS /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49253 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49266 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49275 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/models/stock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87033]
+INFO:     Started server process [87354]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/models/stock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87354]
+INFO:     Started server process [87364]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87364]
+INFO:     Started server process [87376]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87376]
+INFO:     Started server process [87400]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87400]
+INFO:     Started server process [87415]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87415]
+INFO:     Started server process [87434]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87434]
+INFO:     Started server process [87448]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87448]
+INFO:     Started server process [87471]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/chat.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87471]
+INFO:     Started server process [87492]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:49652 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49665 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49689 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87492]
+INFO:     Started server process [87667]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+⚠️ Warning: Failed to save stock data to MongoDB: find_one_and_update
+INFO:     127.0.0.1:49876 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'verify_mongodb_storage.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87667]
+INFO:     Started server process [87732]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+⚠️ Warning: Failed to save stock data to MongoDB: find_one_and_update
+INFO:     127.0.0.1:49963 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/models/stock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87732]
+INFO:     Started server process [88105]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/historical_data_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88105]
+INFO:     Started server process [88175]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88175]
+INFO:     Started server process [88184]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88184]
+INFO:     Started server process [88196]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'historical_data_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88196]
+INFO:     Started server process [88239]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+⚠️ Warning: Failed to save stock data to MongoDB: find_one_and_update
+🔄 Fetching historical data for TCS in background...
+INFO:     127.0.0.1:50224 - "POST /api/v1/chat/dev/message HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/historical_data_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88239]
+INFO:     Started server process [88499]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'historical_data_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88499]
+INFO:     Started server process [88513]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
