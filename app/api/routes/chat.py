@@ -470,8 +470,9 @@ async def send_dev_message(
                                     f"💡 **Dividend Yield** = Annual Dividend ÷ Current Price"
                 
                 elif fundamental_query == "financials":
-                    # Import industry analysis services
+                    # Import industry analysis and news services
                     from app.services.industry_analysis_service import IndustryAnalysisService, ASCIIChartService
+                    from app.services.news_and_analyst_service import NewsAndAnalystService
                     
                     # Calculate additional ratios for comprehensive analysis
                     price_to_sales = None
@@ -488,6 +489,17 @@ async def send_dev_message(
                     
                     # Get industry comparison
                     peer_comparison = IndustryAnalysisService.compare_to_industry(stock_data.symbol, stock_data)
+                    
+                    # Get news and analyst data (in background to avoid blocking)
+                    try:
+                        news_items = await NewsAndAnalystService.get_stock_news(stock_data.symbol, limit=3)
+                        analyst_consensus = await NewsAndAnalystService.get_analyst_recommendations(stock_data.symbol)
+                        recent_actions = NewsAndAnalystService.get_recent_analyst_actions(stock_data.symbol)
+                    except Exception as e:
+                        print(f"Warning: Could not fetch news/analyst data: {e}")
+                        news_items = []
+                        analyst_consensus = None
+                        recent_actions = []
                     
                     # Generate professional comprehensive analysis
                     response_content = f"📊 **{stock_data.symbol} - Professional Financial Analysis**\n\n"
@@ -658,9 +670,88 @@ async def send_dev_message(
                         trend_chart = ASCIIChartService.generate_trend_chart(trend_data, labels, "📈 Revenue Trend (TTM)")
                         response_content += f"```\n{trend_chart}\n```\n\n"
                     
+                    # Analyst Recommendations Section
+                    if analyst_consensus:
+                        rating_emoji = NewsAndAnalystService.get_rating_emoji(analyst_consensus.average_rating)
+                        rating_text = NewsAndAnalystService.format_consensus_rating(analyst_consensus.average_rating)
+                        
+                        response_content += f"🎯 **ANALYST CONSENSUS** {rating_emoji}\n"
+                        response_content += f"```\n"
+                        response_content += f"Rating: {rating_text} ({analyst_consensus.average_rating:.1f}/5.0)\n"
+                        response_content += f"Total Analysts: {analyst_consensus.total_analysts}\n"
+                        response_content += f"────────────────────────────────\n"
+                        response_content += f"Strong Buy: {analyst_consensus.strong_buy_count}  Buy: {analyst_consensus.buy_count}  Hold: {analyst_consensus.hold_count}\n"
+                        response_content += f"Sell: {analyst_consensus.sell_count}  Strong Sell: {analyst_consensus.strong_sell_count}\n"
+                        
+                        if analyst_consensus.average_target_price:
+                            response_content += f"────────────────────────────────\n"
+                            response_content += f"Avg Target: {currency}{analyst_consensus.average_target_price:.0f}\n"
+                            if analyst_consensus.high_target and analyst_consensus.low_target:
+                                response_content += f"Range: {currency}{analyst_consensus.low_target:.0f} - {currency}{analyst_consensus.high_target:.0f}\n"
+                            if analyst_consensus.upside_potential:
+                                upside_color = "🟢" if analyst_consensus.upside_potential > 0 else "🔴"
+                                response_content += f"Upside: {upside_color} {analyst_consensus.upside_potential:+.1f}%\n"
+                        
+                        response_content += f"```\n\n"
+                        
+                        # Recent Analyst Actions
+                        if recent_actions:
+                            response_content += f"📋 **RECENT ANALYST ACTIONS**\n"
+                            for action in recent_actions[:2]:  # Show top 2 recent actions
+                                action_emoji = {"Strong Buy": "🔥", "Buy": "✅", "Hold": "⚪", "Sell": "⚠️", "Strong Sell": "🔴"}.get(action.recommendation.value, "📊")
+                                response_content += f"• **{action.firm_name}**: {action_emoji} {action.recommendation.value}"
+                                if action.target_price:
+                                    response_content += f" (Target: {currency}{action.target_price:.0f})"
+                                response_content += f"\n"
+                                if action.note:
+                                    response_content += f"  _{action.note}_\n"
+                            response_content += f"\n"
+                    
+                    # Recent News Section
+                    if news_items:
+                        response_content += f"📰 **RECENT NEWS & DEVELOPMENTS**\n"
+                        for i, news in enumerate(news_items[:3], 1):
+                            sentiment_emoji = {"positive": "📈", "negative": "📉", "neutral": "📊"}.get(news.sentiment, "📊")
+                            
+                            # Format date
+                            if news.published_date:
+                                time_diff = datetime.now() - news.published_date
+                                if time_diff.days == 0:
+                                    time_str = "Today"
+                                elif time_diff.days == 1:
+                                    time_str = "Yesterday"
+                                else:
+                                    time_str = f"{time_diff.days}d ago"
+                            else:
+                                time_str = "Recent"
+                            
+                            response_content += f"{sentiment_emoji} **{news.title}**\n"
+                            response_content += f"_{news.summary}_\n"
+                            response_content += f"Source: {news.source} | {time_str}\n\n"
+                    
+                    # Market Sentiment Summary
+                    if news_items or analyst_consensus:
+                        sentiment_indicators = []
+                        
+                        if analyst_consensus and analyst_consensus.average_rating >= 3.5:
+                            sentiment_indicators.append("Positive analyst sentiment")
+                        elif analyst_consensus and analyst_consensus.average_rating <= 2.5:
+                            sentiment_indicators.append("Cautious analyst sentiment")
+                        
+                        if news_items:
+                            positive_news = sum(1 for news in news_items if news.sentiment == 'positive')
+                            if positive_news > len(news_items) / 2:
+                                sentiment_indicators.append("Positive news flow")
+                            elif positive_news < len(news_items) / 2:
+                                sentiment_indicators.append("Mixed news sentiment")
+                        
+                        if sentiment_indicators:
+                            response_content += f"🌡️ **MARKET SENTIMENT**: {', '.join(sentiment_indicators)}\n\n"
+                    
                     # Professional footer
                     response_content += f"💡 **Analysis Note**: Professional-grade financial analysis for {stock_data.symbol}. " \
-                                       f"Data as of {stock_data.last_updated.strftime('%Y-%m-%d %H:%M') if stock_data.last_updated else 'latest available'}."
+                                       f"Data as of {stock_data.last_updated.strftime('%Y-%m-%d %H:%M') if stock_data.last_updated else 'latest available'}.\n" \
+                                       f"News and analyst data refreshed in real-time."
                 
                 elif fundamental_query == "margin":
                     # Margin Analysis with Trends
