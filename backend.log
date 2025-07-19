@@ -1885,3 +1885,62 @@ INFO:     Finished server process [92222]
 INFO:     Started server process [92242]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+✅ MongoDB connection successful
+✅ Connected to MongoDB database: stock_analysis
+Database initialized
+Price updater started
+INFO:     127.0.0.1:54676 - "OPTIONS /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+⚠️ Warning: Failed to save stock data to MongoDB: find_one_and_update
+🔄 Fetching historical data for TCS in background...
+🔄 Fetching complete historical data for TCS...
+❌ Error fetching historical prices for TCS: find_one_and_update
+⚠️ Error storing financial statement for TCS 2025-06-30 00:00:00: find_one_and_update
+⚠️ Error storing financial statement for TCS 2025-03-31 00:00:00: find_one_and_update
+⚠️ Error storing financial statement for TCS 2024-12-31 00:00:00: find_one_and_update
+⚠️ Error storing financial statement for TCS 2024-09-30 00:00:00: find_one_and_update
+⚠️ Error storing financial statement for TCS 2024-06-30 00:00:00: find_one_and_update
+⚠️ Error storing financial statement for TCS 2024-03-31 00:00:00: find_one_and_update
+⚠️ Error storing financial statement for TCS 2023-12-31 00:00:00: find_one_and_update
+⚠️ Error storing financial statement for TCS 2025-03-31 00:00:00: find_one_and_update
+⚠️ Error storing financial statement for TCS 2024-03-31 00:00:00: find_one_and_update
+⚠️ Error storing financial statement for TCS 2023-03-31 00:00:00: find_one_and_update
+⚠️ Error storing financial statement for TCS 2022-03-31 00:00:00: find_one_and_update
+✅ Stored 0 financial statements for TCS
+⚠️ Error storing balance sheet for TCS 2025-06-30 00:00:00: find_one_and_update
+⚠️ Error storing balance sheet for TCS 2025-03-31 00:00:00: find_one_and_update
+⚠️ Error storing balance sheet for TCS 2024-09-30 00:00:00: find_one_and_update
+⚠️ Error storing balance sheet for TCS 2024-06-30 00:00:00: find_one_and_update
+⚠️ Error storing balance sheet for TCS 2024-03-31 00:00:00: find_one_and_update
+⚠️ Error storing balance sheet for TCS 2025-03-31 00:00:00: find_one_and_update
+⚠️ Error storing balance sheet for TCS 2024-03-31 00:00:00: find_one_and_update
+⚠️ Error storing balance sheet for TCS 2023-03-31 00:00:00: find_one_and_update
+⚠️ Error storing balance sheet for TCS 2022-03-31 00:00:00: find_one_and_update
+⚠️ Error storing balance sheet for TCS 2021-03-31 00:00:00: find_one_and_update
+✅ Stored 0 balance sheets for TCS
+⚠️ Error storing cash flow for TCS 2025-06-30 00:00:00: find_one_and_update
+⚠️ Error storing cash flow for TCS 2024-09-30 00:00:00: find_one_and_update
+⚠️ Error storing cash flow for TCS 2024-06-30 00:00:00: find_one_and_update
+⚠️ Error storing cash flow for TCS 2025-03-31 00:00:00: find_one_and_update
+⚠️ Error storing cash flow for TCS 2024-03-31 00:00:00: find_one_and_update
+⚠️ Error storing cash flow for TCS 2023-03-31 00:00:00: find_one_and_update
+⚠️ Error storing cash flow for TCS 2022-03-31 00:00:00: find_one_and_update
+⚠️ Error storing cash flow for TCS 2021-03-31 00:00:00: find_one_and_update
+✅ Stored 0 cash flow statements for TCS
+📊 Historical data fetch for TCS: 0/4 categories successful
+INFO:     127.0.0.1:54676 - "POST /api/v1/chat/dev/message?session_id=g9aqyo1jo1md98olhn HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/models/stock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [92242]
+INFO:     Started server process [92518]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/stock_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [92518]
+INFO:     Started server process [92543]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

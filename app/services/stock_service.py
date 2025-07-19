@@ -314,6 +314,7 @@ class StockService:
                 
                 # Profitability metrics
                 "eps": safe_float(info.get('trailingEps')),
+                "gross_margin": safe_float(info.get('grossMargins')) * 100 if safe_float(info.get('grossMargins')) else None,
                 "operating_margin": safe_float(info.get('operatingMargins')) * 100 if safe_float(info.get('operatingMargins')) else None,
                 "profit_margin": safe_float(info.get('profitMargins')) * 100 if safe_float(info.get('profitMargins')) else None,
                 "book_value": safe_float(info.get('bookValue')),

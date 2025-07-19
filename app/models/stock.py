@@ -240,6 +240,7 @@ class StockResponse(BaseModel):
     book_value: Optional[float] = None
     revenue: Optional[float] = None
     net_income: Optional[float] = None
+    gross_margin: Optional[float] = None  # Added missing field
     operating_margin: Optional[float] = None
     profit_margin: Optional[float] = None
     current_ratio: Optional[float] = None
