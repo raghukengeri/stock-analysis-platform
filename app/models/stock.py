@@ -10,19 +10,19 @@ class Stock(Document):
     exchange: str = Field(default="NSE")
     sector: Optional[str] = None
     industry: Optional[str] = None
-    market_cap: Optional[Decimal] = None
-    current_price: Optional[Decimal] = None
-    price_change: Optional[Decimal] = None
-    price_change_percent: Optional[Decimal] = None
+    market_cap: Optional[float] = None
+    current_price: Optional[float] = None
+    price_change: Optional[float] = None
+    price_change_percent: Optional[float] = None
     last_updated: datetime = Field(default_factory=datetime.utcnow)
     is_active: bool = Field(default=True)
     
     # Financial metrics
-    pe_ratio: Optional[Decimal] = None
-    pb_ratio: Optional[Decimal] = None
-    dividend_yield: Optional[Decimal] = None
-    roe: Optional[Decimal] = None
-    debt_to_equity: Optional[Decimal] = None
+    pe_ratio: Optional[float] = None
+    pb_ratio: Optional[float] = None
+    dividend_yield: Optional[float] = None
+    roe: Optional[float] = None
+    debt_to_equity: Optional[float] = None
     
     class Settings:
         collection = "stocks"
