@@ -285,7 +285,7 @@ async def send_dev_message(
         "trends": ["trends", "variance", "qoq", "yoy", "quarter", "year over year"],
         "growth": ["growth", "revenue growth", "earnings growth", "expansion"],
         "valuation": ["valuation", "expensive", "cheap", "overvalued", "undervalued"],
-        "financials": ["financials", "financial", "fundamental", "fundamentals", "analysis"],
+        "financials": ["financials", "financial", "fundamental", "fundamentals", "analysis", "information", "details", "detailed", "overview", "profile", "summary"],
         "revenue": ["revenue", "sales", "turnover", "income"],
         "cash": ["cash flow", "free cash flow", "cash", "liquidity"],
         "beta": ["beta", "volatility", "risk"]
