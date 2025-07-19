@@ -47,35 +47,24 @@ class ChatService:
     
     @staticmethod
     async def _generate_response(message: str, user: User) -> Dict[str, Any]:
-        """Generate AI response based on user message"""
-        message_lower = message.lower()
+        """Generate AI response based on user message - Enhanced version"""
+        # Import the enhanced logic from the dev chat route
+        from app.api.routes.chat import send_dev_message, DevChatMessage
         
-        # Extract stock symbols from message
-        stock_symbols = ChatService._extract_stock_symbols(message)
+        # Create a dev message object to reuse the enhanced logic
+        dev_message = DevChatMessage(content=message)
         
-        # Stock price queries
-        if any(word in message_lower for word in ["price", "quote", "cost", "value"]) and stock_symbols:
-            return await ChatService._handle_price_query(stock_symbols[0])
+        # Get the enhanced response
+        dev_response = await send_dev_message(dev_message)
         
-        # Stock search queries
-        elif any(word in message_lower for word in ["find", "search", "lookup", "show me"]) and stock_symbols:
-            return await ChatService._handle_stock_search(stock_symbols[0])
-        
-        # Watchlist queries
-        elif any(phrase in message_lower for phrase in ["watchlist", "watch list", "my stocks"]):
-            return await ChatService._handle_watchlist_query(user)
-        
-        # Trending stocks
-        elif any(word in message_lower for word in ["trending", "popular", "hot", "movers"]):
-            return await ChatService._handle_trending_query()
-        
-        # Help queries
-        elif any(word in message_lower for word in ["help", "commands", "what can you do"]):
-            return ChatService._handle_help_query()
-        
-        # Default response
-        else:
-            return ChatService._handle_default_query(message)
+        # Convert to the format expected by this service
+        return {
+            "content": dev_response.content,
+            "metadata": {
+                "type": "enhanced_response",
+                "source": "dev_chat_logic"
+            }
+        }
     
     @staticmethod
     def _extract_stock_symbols(message: str) -> List[str]:
