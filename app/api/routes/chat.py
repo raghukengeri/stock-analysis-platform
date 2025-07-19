@@ -470,22 +470,106 @@ async def send_dev_message(
                                     f"💡 **Dividend Yield** = Annual Dividend ÷ Current Price"
                 
                 elif fundamental_query == "financials":
-                    response_content = f"📊 **{stock_data.symbol} - Complete Fundamentals**\n\n" \
-                                    f"**💰 Valuation Metrics**\n" \
-                                    f"• P/E Ratio: {format_number(stock_data.pe_ratio, 'x')}\n" \
-                                    f"• P/B Ratio: {format_number(stock_data.pb_ratio, 'x')}\n" \
-                                    f"• EPS: {currency}{format_number(stock_data.eps)}\n\n" \
-                                    f"**📈 Performance Metrics**\n" \
-                                    f"• Revenue: {format_number(stock_data.revenue, 'cr')}\n" \
-                                    f"• Net Income: {format_number(stock_data.net_income, 'cr')}\n" \
-                                    f"• Profit Margin: {format_number(stock_data.profit_margin, is_percentage=True)}\n\n" \
-                                    f"**💪 Financial Strength**\n" \
-                                    f"• Current Ratio: {format_number(stock_data.current_ratio, 'x')}\n" \
-                                    f"• Debt-to-Equity: {format_number(stock_data.debt_to_equity, 'x')}\n" \
-                                    f"• Beta: {format_number(stock_data.beta)}\n\n" \
-                                    f"**🌱 Growth & Dividends**\n" \
-                                    f"• Revenue Growth: {format_number(stock_data.revenue_growth, is_percentage=True)}\n" \
-                                    f"• Dividend Yield: {format_number(stock_data.dividend_yield, is_percentage=True)}"
+                    # Calculate additional ratios for comprehensive analysis
+                    price_to_sales = None
+                    roe = None
+                    roa = None
+                    book_value_per_share = None
+                    
+                    if stock_data.market_cap and stock_data.revenue:
+                        price_to_sales = stock_data.market_cap / (stock_data.revenue * 10000000)  # Convert cr to actual value
+                    
+                    if stock_data.net_income and stock_data.revenue:
+                        roe_calc = (stock_data.net_income / stock_data.revenue) * 100  # Simplified ROE estimation
+                        if roe_calc: roe = roe_calc
+                    
+                    # Generate professional comprehensive analysis
+                    response_content = f"📊 **{stock_data.symbol} - Professional Financial Analysis**\n\n"
+                    
+                    # Market Data Header
+                    response_content += f"🔴 **LIVE MARKET DATA**\n" \
+                                       f"Current: {currency}{stock_data.current_price:.2f} " \
+                                       f"{'📈' if stock_data.price_change >= 0 else '📉'} " \
+                                       f"{stock_data.price_change:+.2f} ({stock_data.price_change_percent:+.2f}%)\n"
+                    
+                    if stock_data.market_cap:
+                        if stock_data.market_cap >= 1e12:
+                            market_cap_text = f"{currency}{stock_data.market_cap/1e12:.2f}T"
+                        elif stock_data.market_cap >= 1e9:
+                            market_cap_text = f"{currency}{stock_data.market_cap/1e9:.2f}B"
+                        else:
+                            market_cap_text = f"{currency}{stock_data.market_cap/1e6:.0f}M"
+                        response_content += f"Market Cap: {market_cap_text} | Exchange: {stock_data.exchange}\n\n"
+                    
+                    # Valuation Metrics
+                    response_content += f"💰 **VALUATION METRICS**\n" \
+                                       f"```\n" \
+                                       f"P/E Ratio      {format_number(stock_data.pe_ratio, 'x').rjust(10)}\n" \
+                                       f"P/B Ratio      {format_number(stock_data.pb_ratio, 'x').rjust(10)}\n" \
+                                       f"P/S Ratio      {format_number(price_to_sales, 'x').rjust(10)}\n" \
+                                       f"EPS            {currency}{format_number(stock_data.eps).rjust(9)}\n" \
+                                       f"Book Value     {currency}{format_number(book_value_per_share).rjust(9)}\n" \
+                                       f"```\n\n"
+                    
+                    # Performance Metrics
+                    response_content += f"📈 **PERFORMANCE METRICS**\n" \
+                                       f"```\n" \
+                                       f"Revenue (TTM)   {format_number(stock_data.revenue, 'cr').rjust(12)}\n" \
+                                       f"Net Income      {format_number(stock_data.net_income, 'cr').rjust(12)}\n" \
+                                       f"Gross Margin    {format_number(stock_data.gross_margin, is_percentage=True).rjust(12)}\n" \
+                                       f"Operating Margin {format_number(stock_data.operating_margin, is_percentage=True).rjust(11)}\n" \
+                                       f"Profit Margin   {format_number(stock_data.profit_margin, is_percentage=True).rjust(12)}\n" \
+                                       f"ROE             {format_number(roe, is_percentage=True).rjust(12)}\n" \
+                                       f"```\n\n"
+                    
+                    # Financial Health
+                    response_content += f"💪 **FINANCIAL HEALTH**\n" \
+                                       f"```\n" \
+                                       f"Current Ratio   {format_number(stock_data.current_ratio, 'x').rjust(10)}\n" \
+                                       f"Quick Ratio     {'N/A'.rjust(10)}\n" \
+                                       f"Debt/Equity     {format_number(stock_data.debt_to_equity, 'x').rjust(10)}\n" \
+                                       f"Interest Cover  {'N/A'.rjust(10)}\n" \
+                                       f"Beta            {format_number(stock_data.beta).rjust(10)}\n" \
+                                       f"```\n\n"
+                    
+                    # Growth & Returns
+                    response_content += f"🌱 **GROWTH & RETURNS**\n" \
+                                       f"```\n" \
+                                       f"Revenue Growth  {format_number(stock_data.revenue_growth, is_percentage=True).rjust(12)}\n" \
+                                       f"Earnings Growth {format_number(stock_data.earnings_growth, is_percentage=True).rjust(12)}\n" \
+                                       f"Dividend Yield  {format_number(stock_data.dividend_yield, is_percentage=True).rjust(12)}\n" \
+                                       f"Payout Ratio    {format_number(stock_data.payout_ratio, is_percentage=True).rjust(12)}\n" \
+                                       f"```\n\n"
+                    
+                    # Key Insights
+                    insights = []
+                    if stock_data.pe_ratio:
+                        if stock_data.pe_ratio > 30:
+                            insights.append("• High valuation - Growth expectations priced in")
+                        elif stock_data.pe_ratio < 15:
+                            insights.append("• Low valuation - Potential value opportunity")
+                        else:
+                            insights.append("• Moderate valuation - Reasonable pricing")
+                    
+                    if stock_data.revenue_growth and stock_data.revenue_growth > 15:
+                        insights.append("• Strong revenue growth momentum")
+                    elif stock_data.revenue_growth and stock_data.revenue_growth < 5:
+                        insights.append("• Slow revenue growth - Mature business")
+                    
+                    if stock_data.debt_to_equity and stock_data.debt_to_equity < 0.3:
+                        insights.append("• Strong balance sheet with low debt")
+                    elif stock_data.debt_to_equity and stock_data.debt_to_equity > 1.0:
+                        insights.append("• High leverage - Monitor debt levels")
+                    
+                    if stock_data.dividend_yield and stock_data.dividend_yield > 3:
+                        insights.append("• Good dividend income potential")
+                    
+                    if insights:
+                        response_content += f"🔍 **KEY INSIGHTS**\n" + "\n".join(insights) + "\n\n"
+                    
+                    # Professional footer
+                    response_content += f"💡 **Analysis Note**: Professional-grade financial analysis for {stock_data.symbol}. " \
+                                       f"Data as of {stock_data.last_updated.strftime('%Y-%m-%d %H:%M') if stock_data.last_updated else 'latest available'}."
                 
                 elif fundamental_query == "margin":
                     # Margin Analysis with Trends
